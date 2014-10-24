@@ -1,5 +1,5 @@
 blog
 ====
 
-Basic Blog for blog.kontogrid.com
+Basic Blog for http://blog.kontogrid.com/
 
