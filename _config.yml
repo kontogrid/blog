@@ -1,0 +1,13 @@
+# Site settings
+title: Kontogrid
+email: michael.schramm@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Open Source bank account data aggregator with web application
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://blog.kontogrid.com" # the base hostname & protocol for your site
+# twitter_username: jekyllrb
+github_username:  kontogrid
+
+# Build settings
+markdown: kramdown
+
