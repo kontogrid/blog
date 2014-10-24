@@ -1,3 +1,4 @@
+
 # Site settings
 title: Kontogrid
 email: michael.schramm@gmail.com
@@ -7,6 +8,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://blog.kontogrid.com" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
 github_username:  kontogrid
+
 
 # Build settings
 markdown: kramdown
