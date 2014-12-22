@@ -1,0 +1,8 @@
+<!-- post_index -->
+      <dl>{% capture category %}{{ post.categories | size }}{% endcapture %}
+        <dt><a href="{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a>
+          <p class='truncate'>{{ post.content | truncatewords: 12 }}</p>
+        {% if category != '0' %}  <p class="categories">{{ post.categories | category_links }}</p>{% endif %}
+        </dt>
+        <dd>{{post.date | date:"%d %b %Y"}}</dd>
+      </dl>
