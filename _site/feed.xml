@@ -6,12 +6,45 @@
 </description>
     <link>http://blog.kontogrid.com/</link>
     <atom:link href="http://blog.kontogrid.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 25 Oct 2014 10:47:48 +0200</pubDate>
-    <lastBuildDate>Sat, 25 Oct 2014 10:47:48 +0200</lastBuildDate>
-    <generator>Jekyll v2.4.0</generator>
+    <pubDate>Sat, 24 Jan 2015 15:29:43 +0100</pubDate>
+    <lastBuildDate>Sat, 24 Jan 2015 15:29:43 +0100</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>Let's build this!</title>
+        <title>Progress...</title>
+        <description>&lt;p&gt;Well, to put it simple - I thought I would be faster…&lt;/p&gt;
+
+&lt;p&gt;Right now the Parser is working quite well for Bawag (Austria) but I have not tried any other export file.
+In parallel the UI is being built. Right now all it can do is create and edit accounts with a minimal validation for
+different bank accounts.&lt;/p&gt;
+
+&lt;p&gt;To get a working release the following three components have to work:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;API
+this is built with Symfony2 and FosRestBundle&lt;/li&gt;
+  &lt;li&gt;Parser
+Support for one institution is fine, but not enough.
+For mor information on the Parser watch: https://github.com/kontogrid/Parser
+I’ll try to push more regularly&lt;/li&gt;
+  &lt;li&gt;Web App
+I fell in love with AngularJS 2 months ago, it’s awesome and the foundation of the app. All the communication is
+done through the API&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Target for the first beta is around June&lt;/p&gt;
+</description>
+        <pubDate>Sat, 24 Jan 2015 15:22:03 +0100</pubDate>
+        <link>http://blog.kontogrid.com/update/2015/01/24/progress.html</link>
+        <guid isPermaLink="true">http://blog.kontogrid.com/update/2015/01/24/progress.html</guid>
+        
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Let&#39;s build this!</title>
         <description>&lt;p&gt;Hi, &lt;/p&gt;
 
 &lt;p&gt;this is our first post - let me describe what we aim for:&lt;/p&gt;

@@ -19,7 +19,25 @@
 
   <body>
 
-    <header class="site-header">
+    <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '417901328369604',
+      xfbml      : true,
+      version    : 'v2.2'
+    });
+  };
+
+  (function(d, s, id){
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) {return;}
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<header class="site-header">
 
   <div class="wrapper">
     <a class="site-title" href="/">
@@ -60,13 +78,22 @@
       <div class="wrapper">
         <div class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">Let's build this!</h1>
-    <p class="post-meta">Oct 24, 2014</p>
-  </header>
+    <header class="post-header">
+        <h1 class="post-title">
+            
+            
 
-  <article class="post-content">
-    <p>Hi, </p>
+            Let's build this!
+        </h1>
+        <p class="post-meta">
+            Oct 24, 2014
+             • Michael Schramm
+            
+        </p>
+    </header>
+
+    <article class="post-content">
+        <p>Hi, </p>
 
 <p>this is our first post - let me describe what we aim for:</p>
 
@@ -81,9 +108,17 @@
 <p>The Idea is quite old for me - and I could not find any solution out there that does this.</p>
 
 
-  </article>
+    </article>
 
+    
+        
+            <hr/>
+            <h2>Comments</h2>
+            <div class="fb-comments" data-href="http://blog.kontogrid.com/update/2014/10/24/lets-build-this.html" data-num-posts="4" data-width="706"></div>
+        
+    
 </div>
+
 
       </div>
     </div>
@@ -99,6 +134,7 @@
         <ul class="contact-list">
           <li>Kontogrid</li>
           <li><a href="mailto:michael.schramm@gmail.com">michael.schramm@gmail.com</a></li>
+          <li>subscribe <a href="/feed.xml">via RSS</a></li>
         </ul>
       </div>
 

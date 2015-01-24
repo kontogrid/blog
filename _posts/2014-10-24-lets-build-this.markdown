@@ -2,7 +2,9 @@
 layout: post
 title:  "Let's build this!"
 date:   2014-10-24 12:44:03
+author: "Michael Schramm"
 categories: update
+comments: yes
 ---
 Hi, 
 

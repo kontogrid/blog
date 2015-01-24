@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "Progress..."
+date:   2015-01-24 14:22:03
+author: "Michael Schramm"
+categories: update
+comments: yes
+---
+Well, to put it simple - I thought I would be faster...
+
+
+Right now the Parser is working quite well for Bawag (Austria) but I have not tried any other export file.
+In parallel the UI is being built. Right now all it can do is create and edit accounts with a minimal validation for
+different bank accounts.
+
+
+To get a working release the following three components have to work:
+
+* API
+  this is built with Symfony2 and FosRestBundle
+* Parser
+  Support for one institution is fine, but not enough.
+  For mor information on the Parser watch: https://github.com/kontogrid/Parser
+  I'll try to push more regularly
+* Web App
+  I fell in love with AngularJS 2 months ago, it's awesome and the foundation of the app. All the communication is
+  done through the API
+
+
+Target for the first beta is around June
